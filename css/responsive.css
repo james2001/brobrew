@@ -1,0 +1,129 @@
+@media (max-width: 1399.98px) {
+	.header-logo {
+	    width: 320px;
+	}
+}
+
+@media (max-width: 1199.98px) {
+	.header-logo {
+	    width: 270px;
+	}
+	.item-wraper {
+	    width: 90%;
+	}
+	section#item:before {
+	    content: "";
+	    background-size: contain;
+	    position: absolute;
+	    top: 140px;
+	    right: 0;
+	    width: 750px;
+	    height: 750px;
+	    background-repeat: no-repeat;
+	}
+}
+
+@media (max-width: 991.98px) {
+	.section-title h1 {
+	    font-weight: 200;
+	    font-size: 27px;
+	    text-transform: uppercase;
+	    letter-spacing: 0.2em;
+	    line-height: 1.4em;
+	}
+	.item-wraper h1, .item-wraper h2{
+		font-size: 22px;
+	}
+
+}
+
+@media (max-width: 767.98px) {
+	.item-wraper {
+	    width: 400px;
+	    max-width: 95%;
+	    margin-top: 30px;
+	    margin-bottom: 30px;
+	}
+	section#item:before {
+	    content: "";
+	    background-size: contain;
+	    position: absolute;
+	    top: 184px;
+	    right: 0;
+	    width: 500px;
+	    height: 500px;
+	    background-repeat: no-repeat;
+	}
+	.header-logo {
+	    width: 220px;
+	}
+	.footer-info a {
+	    font-weight: 400;
+	    font-size: 18px;
+	    letter-spacing: 2px;
+	    line-height: 1.4em;
+	    display: block;
+	    color: #090a0a;
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	}
+	section#item {
+	    padding: 40px 0px;
+	    position: relative;
+	}
+	section#item .section-title {
+	    margin-bottom: 40px;
+	}
+}
+
+@media (max-width: 575.98px) {
+	.header-logo {
+	    width: 220px;
+	}
+	.container-fluid {
+	    width: 100%;
+	}
+	section#header {
+	    height: 100vh;
+	    overflow: hidden;
+	    padding-top: 30px;
+	}
+	.header-logo {
+	    top: -21px;
+	}
+	section#item:before {
+	    content: "";
+	    background-size: contain;
+	    position: absolute;
+	    top: 184px;
+	    right: 0;
+	    width: 97%;
+	    height: 500px;
+	    background-repeat: no-repeat;
+	}
+	section#item {
+	    padding: 30px 0px;
+	    position: relative;
+	}
+	.footer-info a {
+	    font-weight: 400;
+	    font-size: 16px;
+	    letter-spacing: 2px;
+	    line-height: 1.4em;
+	    display: block;
+	    color: #090a0a;
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	}
+	.footer-image img {
+	    width: 100%;
+	    margin-top: 35px;
+	}
+}
+
+
+
+
+
+
+

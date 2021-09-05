@@ -1,0 +1,145 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #212529;
+}
+a {
+  display: inline-block;
+  transition: 0.3s ease;
+  text-decoration: none !important;
+}
+.container-fluid {
+  width: 92%;
+}
+.header-wraper {
+  position: relative;
+}
+.header-logo {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%, 0px);
+  width: 400px;
+}
+.header-logo img {
+  width: 100%;
+}
+.header-wraper img {
+  width: 100%;
+}
+.header-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  min-height: 570px;
+  height: calc(100vh - 90px);
+  animation: zoomeffect 1s ease-out;
+}
+@-webkit-keyframes zoomeffect {
+  0% {
+    transform: scale(1.9);
+  }
+  50% {
+    transform: scale(1.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+section#header {
+  height: 100vh;
+  overflow: hidden;
+  padding-top: 60px;
+}
+.section-title h1 {
+  font-weight: 200;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  line-height: 1.4em;
+}
+.section-title {
+  text-align: center;
+}
+.item-wraper h1 {
+  font-weight: 200;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  line-height: 1.4em;
+}
+.item-wraper h2 {
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  font-size: 25px;
+}
+.item-wraper p {
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 40px;
+}
+.item-wraper {
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+.item-image img {
+  width: 202px;
+  max-width: 80%;
+  margin-bottom: 40px;
+}
+section#item .section-title {
+  margin-bottom: 70px;
+}
+section#item {
+  padding: 80px 0px;
+  position: relative;
+}
+/*section#item:before {
+    content: "";
+    background-image: url(../images/favicon.png);
+    background-size: contain;
+    position: absolute;
+    top: 140px;
+    right: 0;
+    width: 1000px;
+    height: 1000px;
+    background-repeat: no-repeat;
+}*/
+
+section#footer {
+  padding: 80px 0px;
+  text-align: center;
+  padding-bottom: 0px;
+}
+.footer-info {
+  position: relative;
+}
+.footer-info:after {
+  content: "";
+  position: absolute;
+  top: -90px;
+  left: 50%;
+  width: 2px;
+  height: 50px;
+  background-color: #090a0a;
+  transform: translate(-50%, 0);
+}
+.footer-info a {
+  font-weight: 400;
+  font-size: 1.3em;
+  letter-spacing: 0.3em;
+  line-height: 1.4em;
+  display: block;
+  color: #090a0a;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer-info a:hover {
+  color: #6cac7e;
+}
+.footer-image img {
+  width: 100%;
+  margin-top: 70px;
+}
